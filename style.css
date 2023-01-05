@@ -1,0 +1,85 @@
+.clssDecrypt{
+    color: rgb(48, 53, 57);
+    background-color: whitesmoke;
+   
+}
+
+.clssDecrypt:hover {
+
+background-color: rgb(101, 101, 159);
+
+}
+
+#objText{
+   
+    color: grey;
+}
+
+textarea{
+
+    background-color: transparent;
+    border: 0;
+    font-size: 1.2rem;
+    animation: 5s steps(30) infinite alternate;
+}
+
+.clssEncrypt{
+    color: aliceblue;
+    background-color: rgba(63, 63, 73, 0.879);
+}
+
+.clssBtns button{
+    border-radius:  10px;
+    padding: 20px;
+    margin: 10px;
+    cursor:pointer;
+}
+
+.clssEncrypt:hover {
+
+background-color: rgb(129, 129, 148);
+
+}
+
+.clssCopy{
+    cursor: copy;
+    position:static;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 8vh;
+    width: 8vh;
+    background: url("https://w7.pngwing.com/pngs/592/864/png-transparent-computer-icons-icon-design-cut-copy-and-paste-taobao-clothing-promotional-copy-text-rectangle-emoticon-thumbnail.png") center no-repeat; background-size: 100% 100%;
+}
+
+.clssDtext {
+    pointer-events: none;
+    background-color: aliceblue;
+    
+
+
+}
+
+.clss-salida{
+
+    background-color: wheat;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+main{
+width: fit-content;
+min-width:50vh
+    background-color: lightgray;
+    margin: 0 auto;
+}
+
+footer{
+    text-align: center;
+    padding: 40px;
+}
+
+
+
+
+
