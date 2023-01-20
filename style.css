@@ -21,6 +21,8 @@ textarea{
     border: 0;
     font-size: 1.2rem;
     animation: 5s steps(30) infinite alternate;
+    background-color: rgb(227, 227, 227);
+
 }
 
 .clssEncrypt{
@@ -33,6 +35,11 @@ textarea{
     padding: 20px;
     margin: 10px;
     cursor:pointer;
+}
+
+.clssBtns{
+
+align-items: center;
 }
 
 .clssEncrypt:hover {
@@ -53,7 +60,9 @@ background-color: rgb(129, 129, 148);
 
 .clssDtext {
     pointer-events: none;
-    background-color: aliceblue;
+    background-color: rgb(181, 181, 181);
+    height:fit-content;
+
     
 
 
@@ -61,7 +70,7 @@ background-color: rgb(129, 129, 148);
 
 .clss-salida{
 
-    background-color: wheat;
+    background-color: rgb(255, 255, 255);
     display:flex;
     flex-wrap: wrap;
 
@@ -77,6 +86,13 @@ min-width:50vh
 footer{
     text-align: center;
     padding: 40px;
+}
+
+nav {
+margin-top: 2vw;
+margin-left: 2vw;
+padding-bottom: 2vw;
+
 }
 
 
